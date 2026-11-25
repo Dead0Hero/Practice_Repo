@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Contact me</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="homework.html">Home</a> |
+                <a href="About me.html">About me</a>
+                <a href="Contact me.html">Contact me</a>
+            </nav>
+        </header>
+        <form id="contactForm" novalidate>
+            <label for="Firstn">Primary Name:</label>
+            <input type="text" id="Firstn" name="Firstn">
+            <label for="Lastn">Last Name:</label>
+            <input type="text" id="Lastn" name="Lastn">
+            <label for="Email">Email Id:</label>
+            <input type="text" id="Email" name="Email">
+            <input type="submit" value="Submit">
+            <p id="formMessage" role="status" aria-live="polite"></p>
+        </form>
+        <script src="form-validation.js"></script>
+    </body>
+</html>
